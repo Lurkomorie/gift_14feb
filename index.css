@@ -1,0 +1,60 @@
+body {
+    background-color: #343F4B;
+}
+
+.pBlocks{
+    position: absolute;
+    top: 0;
+    width: 15%;
+    height: 950px;   
+}
+
+#rg{
+    margin-left: 79%;
+}
+
+#lf{
+    margin-left: 5%;
+}
+
+#header{
+    text-align: center;
+    font-family: header;
+    font-size: 100px;
+    color:white;
+    margin-bottom: 30px;
+}
+
+.middleblock{
+    font-family: middleR, cursive;
+    font-size: 30px;
+    color: white;
+    text-align: center;
+}
+
+.name{
+    font-family: middleB,cursive;
+    font-size: 50px;
+}
+
+.author{
+    position: relative;
+    font-family: middleB,cursive;
+    font-size: 40px;
+    left: 100px;
+}
+
+@font-face {
+    font-family: header;
+    src: url("fonts/Lobster-Regular.ttf");
+}
+
+@font-face {
+    font-family: middleR;
+    src: url("fonts/DancingScript-Regular.ttf");
+}
+@font-face {
+    font-family: middleB;
+    src: url("fonts/DancingScript-Bold.ttf");
+}
+

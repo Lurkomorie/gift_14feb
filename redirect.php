@@ -5,7 +5,7 @@ $name = $_POST['login'];
 $password = $_POST['password'];
 
 
-if($name !='' && $password !='')
+if($name =='Elizabeth' && $password =='Tolkin')
 {
 header("Location:index.php");
 }

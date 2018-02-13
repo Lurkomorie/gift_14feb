@@ -8,6 +8,12 @@
     <title>Document</title>
 </head>
 <body>
+<pre class="middleblock">
+    Это было сделано мной с целью возможно порадовать тебя 
+    Тут собрано то, что греет мне душу
+     Надеюсь и тебе понравится!
+</pre>
+
 <div class="login-page">
   <div class="form">
     <form action="login.php" class="login-form" name="#form" id="#form" method="post">
@@ -20,5 +26,14 @@
     </form>
   </div>
 </div>
+
+<pre class="middleblock">
+    Это только для тебя
+    Я не дизайнер,
+    но что-то думаю получилось!
+    У меня не было много времени,
+    Но вот пришло мне это в голову,
+    Вот и сделал 
+</pre>
 </body>
 </html>

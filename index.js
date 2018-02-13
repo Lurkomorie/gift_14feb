@@ -34,29 +34,52 @@ var app = new Vue({
             new poem(
                 'Sonnet 47',
 
-                'Betwixt mine eye and heart a league is took,'+
-                'And each doth good turns now unto the other:'+
-                'When that mine eye is famished for a look,'+
-                'Or heart in love with sighs himself doth smother,'+
-                'With my love\'s picture then my eye doth feast,'+
-                'And to the painted banquet bids my heart;'+
-                'Another time mine eye is my heart\'s guest,'+
-                'And in his thoughts of love doth share a part.'+
-                'So either by thy picture or my love,'+
-                'Thyself, away, art present still with me,'+
-                'For thou not farther than my thoughts canst move,'+
-                'And I am still with them, and they with thee;'+
-                'Or if they sleep, thy picture in my sight'+
-                'Awakes my heart to heart\'s and eye\'s delight.',
+                'Betwixt mine eye and heart a league is took,\n'+
+                'And each doth good turns now unto the other:\n'+
+                'When that mine eye is famished for a look,\n'+
+                'Or heart in love with sighs himself doth smother,\n'+
+                'With my love\'s picture then my eye doth feast,\n'+
+                'And to the painted banquet bids my heart;\n'+
+                'Another time mine eye is my heart\'s guest,\n'+
+                'And in his thoughts of love doth share a part.\n'+
+                'So either by thy picture or my love,\n'+
+                'Thyself, away, art present still with me,\n'+
+                'For thou not farther than my thoughts canst move,\n'+
+                'And I am still with them, and they with thee;\n'+
+                'Or if they sleep, thy picture in my sight\n'+
+                'Awakes my heart to heart\'s and eye\'s delight.\n',
 
                 'William Shakespeare'
+            ),
+            new poem(
+                'To D',
+
+                'In thee, I fondly hop’d to clasp\n'+
+                'A friend, whom death alone could sever;\n'+
+                'Till envy, with malignant grasp,\n'+
+                'Detach’d thee from my breast for ever.\n\n'+
+                
+                'True, she has forc’d thee from my breast,\n'+
+                'Yet, in my heart thou keep’st thy seat;\n'+
+                'There, there, thine image still must rest,\n'+
+                'Until that heart shall cease to beat.\n\n'+
+                
+                'And, when the grave restores her dead,\n'+
+                'When life again to dust is given,\n'+
+                'On thy dear breast I’ll lay my head—\n'+
+                'Without thee! where would be my Heaven?',
+
+                'George Gordon Byron'
             )
         ],
         currentPoem : 0
     },
     methods: {
-        changePoem: function(poem){
-            this.currentPoem = this.poems[poem];
+        "changePoem": function changePoem(poem){
+            this.currentPoem = poem;
+        },
+        "num_pages": function num_pages() {
+            return this.poems.length;
         }
     },
     computed: {

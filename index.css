@@ -2,11 +2,32 @@ body {
     background-color: #343F4B;
 }
 
+.pagination {
+    font-family: center;
+    text-align: center;
+    padding: 8px;
+    margin-top: 15px;
+    font-size: 30px;
+  }
+
+  .number {
+    display: inline-block;
+    padding: 4px 15px;
+    color: white;
+    border-radius: 10px;
+    background: #DC304B;
+    margin: 0px 5px;
+    cursor: pointer;
+  }
+  .number:hover, .number.active {
+    background: #9D1732;
+  }
+
 .pBlocks{
     position: absolute;
     top: 0;
     width: 15%;
-    height: 950px;   
+    height: 800px;   
 }
 
 #rg{
@@ -30,9 +51,14 @@ body {
     font-size: 30px;
     color: white;
     text-align: center;
+    position: relative;
+    perspective: 500px;
+    transform-style: preserve-3d;
 }
 
+
 .name{
+    position: relative;
     font-family: middleB,cursive;
     font-size: 50px;
 }

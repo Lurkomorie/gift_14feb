@@ -1,12 +1,16 @@
 @import url(https://fonts.googleapis.com/css?family=Roboto:300);
 
+@font-face {
+  font-family: middleR;
+  src: url("fonts/DancingScript-Regular.ttf");
+}
+
 .middleblock{
-    font-family: "Roboto", sans-serif;
-    font-size: 30px;
-    color: white;
-    text-align: center;
-    position: relative;
-    perspective: 500px;
+  font-family: middleR, cursive;
+  font-size: 100px;
+  color: #DC304B;
+  text-align: center;
+  position: relative;
 }
 
 .login-page {

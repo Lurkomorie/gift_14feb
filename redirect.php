@@ -7,7 +7,7 @@ $password = $_POST['password'];
 
 if($name =='Elizabeth' && $password =='Tolkin')
 {
-header("Location:index.php");
+header("Location:https://giftforeliza.000webhostapp.com/main.php");
 }
 else{
 ?><span><?php echo "Please fill all fields.....!!!!!!!!!!!!";?></span> <?php

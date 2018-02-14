@@ -1,32 +1,28 @@
+<?php
+        include "redirect.php";
+?>
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" type="text/css" href="login.css">
     <title>Document</title>
-    <link rel="stylesheet" type="text/css" href="index.css">
-    <script src="https://cdn.jsdelivr.net/npm/vue"></script>
 </head>
-
 <body>
-    <img src="flag.png" class="pBlocks" id="lf">
-    <div id="header">
-        With Valentine's Day!
-    </div>
-    <div id="poetry">
-        <div class="middleblock">
-            <div class="name">{{current.name}}</div>
-            <pre class="middleblock">{{current.text}}</pre>
-            <div class="author">{{current.author}}</div>
-        </div>
-        <div class="pagination">
-            <div class="number" v-for="i in num_pages()" v-bind:class="[i-1 == currentPoem ? 'active' : '']" v-on:click="changePoem(i-1)">{{i}}</div>
-        </div>
-</div>
-        <img src="flag.png" class="pBlocks" id="rg">
-</body>
-<script src="index.js"></script>
 
+<div class="login-page">
+  <div class="form">
+    <form action="index.php" class="login-form" name="#form" id="#form" method="post">
+      <input name="login" type="text" placeholder="username"/>
+      <input name="password" type="password" placeholder="password"/>
+      <input id="btn" name="submit" type="submit" value="Login">
+    </form>
+  </div>
+</div>
+<div class="middleblock">
+      For Elizabeth
+    </div>
+</body>
 </html>
